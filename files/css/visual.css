@@ -1,0 +1,38 @@
+/* essa parte aqui é tudo relacionada ao menu superior
+ou seja, menu 1 */
+.menu-superior{
+	background-color: #283848 !important;
+	height: 50px;
+	color: #FFFFFF;
+}
+
+
+/* essa parte aqui é responsavel pela parte principal
+onde vai ficar a imagem grande com algumas infos do painel */
+.header-painel{
+	background-color: #bde2fc;
+	height: 500px;
+}
+
+
+
+/* essa parte aqui é aonde vai ficar o segundo menu
+que ao rolar a página para cima ele fica fixo, sendo então
+o menu principal do site! */
+.segundo-menu{
+	background-color: #283848;
+	height: 50px;
+	color: #FFFFFF;
+}
+.menu-fixo{
+	position: fixed;
+	top: 0;
+	z-index: 99;
+	width: 100%;
+}
+
+/* parte do content do site TODO */
+.content{
+	background-color: #ecf0f1;
+	height: 800px;
+}
