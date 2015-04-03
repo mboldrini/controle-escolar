@@ -1,19 +1,73 @@
-/* essa parte aqui é tudo relacionada ao menu superior
-ou seja, menu 1 */
-.menu-superior{
-	background-color: #283848 !important;
-	height: 50px;
-	color: #FFFFFF;
+*{
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none !important;
+	list-style-type: none !important;
+	font-family: 'Open Sans', sans-serif !important;
 }
-
+body{
+	font-family: 'Open Sans', sans-serif !important;
+}
 
 /* essa parte aqui é responsavel pela parte principal
 onde vai ficar a imagem grande com algumas infos do painel */
 .header-painel{
-	background-color: #bde2fc;
+	background-color: #adcbe3;
 	height: 500px;
+	background-image: url(images/dolar.jpeg);
+	opacity: 0.8;
 }
 
+/* menu de infos do sistema
+dentro do header principal */
+.infos-sistema{
+	width: auto;
+	height: auto;
+	float: right;
+	margin-right: 10px;
+	background-color: rgba(0,0,0,0.3);
+	border-radius: 0 0 5px 5px;
+}
+.infos-sistema > ul > li{
+	float: left;
+	padding: 10px;
+}
+.infos-sistema > ul > li > a{
+	display: block;
+	color: #FFFFFF;
+}
+
+/* parte da logo do sistema dentro do painel */
+.logo{
+	width: 300px;
+	height: 150px;
+	border: 1px solid #f00;
+	margin: 50px 0 0 35px;
+	float: left;
+}
+
+/* infos do usuário
+onde mostra o lvl, foto, nome etc
+dentro do HEADER PRINCIPAl */
+.infos-usuario{
+	width: 300px;
+	height: 110px;
+	margin: 8% 200px 0 0;
+	background-color: #FFFFFF;
+	float: right;
+	border-radius: 0.5em;
+}
+.infos-usuario h1{
+	margin: 5px 0 0 10px;
+	padding: 0px;
+	font-size: 1em;
+	display: block;
+}
+.infos-usuario > img{
+	border-radius: 0.5em;
+	margin: 5px 0 0 5px;
+	float: left;
+}
 
 
 /* essa parte aqui é aonde vai ficar o segundo menu
@@ -30,6 +84,9 @@ o menu principal do site! */
 	z-index: 99;
 	width: 100%;
 }
+
+
+
 
 /* parte do content do site TODO */
 .content{
