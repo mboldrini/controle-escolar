@@ -3,88 +3,65 @@
 	padding: 0px;
 	text-decoration: none !important;
 	list-style-type: none !important;
-	font-family: 'Open Sans', sans-serif !important;
+}
+ul, li, ul li, ul li ul li, a, ul li a, ul li ul li a{
+	margin: 0px;
+	padding: 0px;
 }
 body{
-	font-family: 'Open Sans', sans-serif !important;
+	background-color: #e9e9e9;
 }
-
 /* essa parte aqui é responsavel pela parte principal
 onde vai ficar a imagem grande com algumas infos do painel */
 .header-painel{
-	background-color: #adcbe3;
-	height: 500px;
-	background-image: url(images/dolar.jpeg);
-	opacity: 0.8;
+	background-color: #ffffff;
+	height: 250px;
 }
 
-/* menu de infos do sistema
-dentro do header principal */
-.infos-sistema{
-	width: auto;
-	height: auto;
-	float: right;
-	margin-right: 10px;
-	background-color: rgba(0,0,0,0.3);
-	border-radius: 0 0 5px 5px;
-}
-.infos-sistema > ul > li{
-	float: left;
-	padding: 10px;
-}
-.infos-sistema > ul > li > a{
-	display: block;
-	color: #FFFFFF;
-}
 
-/* parte da logo do sistema dentro do painel */
-.logo{
-	width: 300px;
-	height: 150px;
+
+/* menu do painel */
+.menu-painel{
+	height: 77px;
+	background-image: url(images/bg-menu.jpg);
+}
+.uelis{
 	border: 1px solid #f00;
-	margin: 50px 0 0 35px;
 	float: left;
 }
 
-/* infos do usuário
-onde mostra o lvl, foto, nome etc
-dentro do HEADER PRINCIPAl */
+/* infos do usuário no menu horizontal topo do painel */
 .infos-usuario{
-	width: 300px;
-	height: 110px;
-	margin: 8% 200px 0 0;
+	height: 65px;
+	border: 1px solid #236284;
 	background-color: #FFFFFF;
 	float: right;
+	margin: 5px 20px 0 0;
 	border-radius: 0.5em;
 }
-.infos-usuario h1{
-	margin: 5px 0 0 10px;
-	padding: 0px;
-	font-size: 1em;
-	display: block;
-}
-.infos-usuario > img{
+.infos-usuario > a > img{
+	width: 60px;
+	height: 57px;
+	background-color: #f00;
+	border: none;
 	border-radius: 0.5em;
-	margin: 5px 0 0 5px;
+	margin: 3px 0 0 3px;
 	float: left;
 }
-
-
-/* essa parte aqui é aonde vai ficar o segundo menu
-que ao rolar a página para cima ele fica fixo, sendo então
-o menu principal do site! */
-.segundo-menu{
-	background-color: #283848;
-	height: 50px;
-	color: #FFFFFF;
+.infos-usuario > h1{
+	padding: 0px;
+	margin: 5px 0 0 10px;
+	font-size: 16px;
+	float: left;
+	display: block;
 }
-.menu-fixo{
-	position: fixed;
-	top: 0;
-	z-index: 99;
-	width: 100%;
+.infos-usuario > h2{
+	padding: 0px;
+	margin: 5px 0 0 15px;
+	font-size: 14px;
+	font-weight: bold;
+	float: left;
 }
-
 
 
 
