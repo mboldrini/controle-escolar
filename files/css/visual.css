@@ -47,14 +47,9 @@ nav > ul > li > a:hover{
 }
 
 
-/* botãozim do usuário no menu horizontal superior */
-#info-usuario{
-}
-
 
 
 /* parte do content do site TODO */
-.content{
-	background-color: #ecf0f1;
-
+.conteudo-geral{
+	margin-top: 10px;
 }
