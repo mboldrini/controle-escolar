@@ -14,15 +14,12 @@ body{
 	padding: 0px;
 }
 
-/* parte do content do site TODO */
-.conteudo-geral{
-	margin-top: 10px;
-}
-
-
 h1.page-header {
 	margin-top: -5px;
 }
+
+
+
 
 .sidebar {
 	padding-left: 0;
@@ -78,6 +75,9 @@ h1.page-header {
 	border-radius: 0;
 	background-color: transparent;
 	box-shadow: none;
+}
+.conteudo-geral{
+	margin-top: 70px;
 }
 .side-menu #dropdown .caret {
 	float: right;
