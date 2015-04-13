@@ -12,6 +12,8 @@ body{
 	background-color: #ecf0f1;
 	margin: 0px;
 	padding: 0px;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
 }
 
 h1.page-header {
@@ -19,7 +21,14 @@ h1.page-header {
 }
 
 
-
+.tab-edit{
+	width: 2%;
+}
+.well > h1{
+	padding-top: 2px;
+	margin-top: 2px;
+	margin-bottom: 10px;
+}
 
 .sidebar {
 	padding-left: 0;
