@@ -27,7 +27,8 @@ h1.page-header {
 .well > h1{
 	padding-top: 2px;
 	margin-top: 2px;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
+	border-bottom: 2px solid #000;
 }
 
 .sidebar {
@@ -40,12 +41,8 @@ h1.page-header {
 	margin-top: -20px;
 }
 
-.teste{
-	width: 100%;
-	height: 100px;
-	margin-top: 30px;
-	text-align: center;
-	border-top: 1px solid #f00;
+.form-group, .form-group > label{
+	display: block;
 }
 
 
