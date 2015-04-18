@@ -29,11 +29,14 @@
 
             <div class="panel-group" id="accordion">
               <div class="panel panel-default">
-                <div class="panel-heading ">
-                  <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"><span class=" glyphicon glyphicon-envelope">
-                    </span>Email</a>
-                  </h4>
+                <div class="panel-heading ">                
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                      <h4 class="panel-title">
+                        <span class=" glyphicon glyphicon-envelope">
+                          Email
+                        </span>
+                      </h4>
+                    </a>              
                 </div>
                 <div id="collapseOne" class="panel-collapse collapse ">
                   <div class="panel-body">
@@ -62,6 +65,12 @@
                           <span class="label label-danger">+1</span>
                         </td>
                       </tr>
+                      <tr>
+                        <td>
+                          <span class="text-info"></span><a href="#">Advertência</a>
+                          <span class="label label-danger">+1</span>
+                        </td>
+                      </tr>
 
                     </table>
                   </div>
@@ -69,11 +78,14 @@
               </div>
 
               <div class="panel panel-default">
-                <div class="panel-heading">
-                  <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"><span class=" glyphicon glyphicon-tower">
-                    </span>Alunos</a>
-                  </h4>
+                <div class="panel-heading">                  
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                    <h4 class="panel-title">
+                      <span class="glyphicon glyphicon-user">
+                        Alunos
+                      </span>
+                    </h4>
+                  </a>                 
                 </div>
                 <div id="collapseTwo" class="panel-collapse collapse">
                   <div class="panel-body">
@@ -99,28 +111,31 @@
               </div>
 
               <div class="panel panel-default">
-                <div class="panel-heading">
-                  <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree"><span class=" glyphicon glyphicon-tower">
-                    </span>Funcionários</a>
-                  </h4>
+                <div class="panel-heading">                 
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                    <h4 class="panel-title">
+                      <span class="glyphicon glyphicon-user">
+                        Funcionários
+                      </span>
+                    </h4>
+                  </a>                  
                 </div>
-                <div id="collapseThree" class="panel-collapse collapse in">
+                <div id="collapseThree" class="panel-collapse collapse ">
                   <div class="panel-body">
                     <table class="table">
                       <tr>
                         <td>
-                          <a href="funcionario_novo.php">Cadastrar Funcionário</a>
+                          <a href="./funcionario_novo.php">Cadastrar Funcionário</a>
                         </td>
                       </tr>
                       <tr>
                         <td>
-                          <a href="funcionario_cadastrados.php">Funcionários Cadastrados</a>
+                          <a href="./funcionario_cadastrados.php">Funcionários Cadastrados</a>
                         </td>
                       </tr>
                       <tr>
                         <td>
-                          <a href="funcionario_ocorrencia.php">Cadastrar Ocorrência</a>
+                          <a href="./funcionario_ocorrencia.php">Cadastrar Advertência</a>
                         </td>
                       </tr>
                     </table>
@@ -129,11 +144,14 @@
               </div>
 
               <div class="panel panel-default">
-                <div class="panel-heading">
-                  <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour"><span class=" glyphicon glyphicon-tower">
-                    </span>Conquistas</a>
-                  </h4>
+                <div class="panel-heading">                 
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+                    <h4 class="panel-title">
+                      <span class=" glyphicon glyphicon-tower">
+                        Conquistas
+                      </span>
+                    </h4>
+                  </a>                 
                 </div>
                 <div id="collapseFour" class="panel-collapse collapse ">
                   <div class="panel-body">
@@ -160,11 +178,14 @@
               </div>
 
               <div class="panel panel-default">
-                <div class="panel-heading">
-                  <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive"><span class=" glyphicon glyphicon-tasks">
-                    </span>Missões</a>
-                  </h4>
+                <div class="panel-heading">                 
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+                    <h4 class="panel-title">
+                      <span class=" glyphicon glyphicon-tasks">
+                        Missões
+                      </span>
+                    </h4>
+                  </a>                  
                 </div>
                 <div id="collapseFive" class="panel-collapse collapse">
                   <div class="panel-body">
@@ -199,11 +220,14 @@
               </div>
 
               <div class="panel panel-default">
-                <div class="panel-heading">
-                  <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseSix"><span class=" glyphicon glyphicon-stats">
-                    </span>Relatórios</a>
-                  </h4>
+                <div class="panel-heading">                  
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
+                    <h4 class="panel-title">
+                      <span class=" glyphicon glyphicon-stats">
+                        Relatórios
+                      </span>
+                    </h4>
+                  </a>                  
                 </div>
                 <div id="collapseSix" class="panel-collapse collapse">
                   <div class="panel-body">
@@ -234,11 +258,14 @@
               </div>
 
               <div class="panel panel-default">
-                <div class="panel-heading">
-                  <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseSeven"><span class=" glyphicon glyphicon-cog">
-                    </span>Configurações</a>
-                  </h4>
+                <div class="panel-heading">                  
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">
+                    <h4 class="panel-title">
+                      <span class=" glyphicon glyphicon-cog">
+                        Configurações
+                      </span>
+                    </h4>
+                  </a>
                 </div>
                 <div id="collapseSeven" class="panel-collapse collapse">
                   <div class="panel-body">
